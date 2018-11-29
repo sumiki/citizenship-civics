@@ -25,5 +25,6 @@ Following is the deploy steps.
 2. cd frontend && yarn install
 3. yarn build
 4. Create GAE project on gcloud
-5. gcloud app deploy
+5. dev_appserver.py app.yaml for development
+5. gcloud app deploy for production
 
